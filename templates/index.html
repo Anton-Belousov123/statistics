@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Подключение CSS-файлов Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Подключение дополнительных CSS-файлов (пример) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="row mt-3 mb-5">
+        <h1 class="text-center col-md-8 mx-auto">Статистика</h1>
+    </div>
+
+    <div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Метрика №1</h5>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                        <span class="chart-number chart-number-now">123</span>
+                        <span class="chart-label">сейчас</span>
+                    </div>
+                    <div>
+                        <span class="chart-number chart-number-average">123</span>
+                        <span class="chart-label">среднее</span>
+                    </div>
+                </div>
+                <canvas id="myChart"></canvas><!-- Добавлено место для графика -->
+                <a href="#" class="btn btn-primary mt-3">Перейти</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<!-- Подключение JS-файлов Bootstrap и библиотеки для отображения графиков (пример) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Подключение скрипта -->
+<!-- Подключение библиотеки Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

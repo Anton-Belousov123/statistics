@@ -1,0 +1,46 @@
+body {
+    background-color: #061932;
+}
+
+h1 {
+    color: white;
+    border: 2px solid violet; /* Фиолетовая рамка */
+    padding: 10px; /* Отступ внутри рамки */
+    display: inline-block; /* Для корректного отображения рамки */
+}
+
+.card {
+    background-color: #32144f;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.chart-number {
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.chart-label {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.chart-number-now {
+    color: #007bff;
+}
+
+.chart-number-average {
+    color: #28a745;
+}
